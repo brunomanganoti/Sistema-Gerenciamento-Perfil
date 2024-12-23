@@ -5,7 +5,7 @@
  
      unset($_SESSION['email']);
      unset($_SESSION['senha']);
-     header('Location: login.php');
+     header('Location: login.html');
  
 } else {
     $login = $_SESSION['email'];
@@ -44,8 +44,8 @@
         <div id="bloco-consulta">
         <ul>
             <li><a href="acesso.php">Voltar para a página principal</a></li>
-            <li><a href="att-perfil.php">Alterar dados</a></li>
-            <li><a href="comentario.php">Enviar Feedback</a></li>
+            <li><a href="att-perfil.html">Alterar dados</a></li>
+            <li><a href="comentario.html">Enviar Feedback</a></li>
             <li><a href="excluir.php" onclick="return confirm('Tem certeza que deseja excluir sua conta? Esta ação não pode ser desfeita.')">Excluir conta</a></li>
             <li><a href="sair.php">Sair (finaliza sua sessão)</a></li>
         </ul>

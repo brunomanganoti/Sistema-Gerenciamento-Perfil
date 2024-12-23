@@ -28,7 +28,7 @@
         VALUES ('$nome','$sobrenome','$email','$rg','$cpf','$rua','$num_endereco','$complemento','$sexo','$tipo_cartao','$num_cartao','$nome_cartao','$exp_cartao','$cvv_cartao','$email_pix','$telefone','$cpf_pix','$chv_aleatoria','$senha')");
 
         if ($registro) {
-           header('Location: login.php');
+           header('Location: login.html');
            exit();
         }
     }
@@ -68,8 +68,8 @@
 
 <body>
       <div id="menu-horizontal">
-          <a href="comentario.php">Envie seu feedback!</a>
-          <a href="login.php">Login</a>
+          <a href="comentario.html">Envie seu feedback!</a>
+          <a href="login.html">Login</a>
       </div>
 
     <div id="bloco-registro">
@@ -131,7 +131,7 @@
           <button type="submit" name="submit" class="botao-registro">Registrar-se</button>
         </form>   
 
-    <div id="link-login">Já tem uma conta? <a href="login.php">Entre aqui!</a></div>
+    <div id="link-login">Já tem uma conta? <a href="login.html">Entre aqui!</a></div>
 </div>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></script>

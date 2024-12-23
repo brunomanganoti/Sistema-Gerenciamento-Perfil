@@ -18,7 +18,7 @@
             
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
-            header('Location: login.php');
+            header('Location: login.html');
 
         } else {
             $_SESSION['email'] = $email;
@@ -28,6 +28,6 @@
         }
 
     } else {
-        header('Location: login.php');
+        header('Location: login.html');
     }
 ?>

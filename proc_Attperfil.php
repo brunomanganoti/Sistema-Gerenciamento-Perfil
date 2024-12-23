@@ -5,7 +5,7 @@
 
     unset($_SESSION['email']);
     unset($_SESSION['senha']);
-    header('Location: login.php');
+    header('Location: login.html');
 
 } else {
 
@@ -55,7 +55,7 @@ include_once('conexao.php');
     <div id="bloco-atualizado">
         <br>
         <h1 id="titulo-pag">Perfil atualizado com sucesso!</h1>
-            <p id="texto-atualizado">Faça login novamente <u><a href="login.php">aqui</a></u></p>
+            <p id="texto-atualizado">Faça login novamente <u><a href="login.html">aqui</a></u></p>
     </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></script>
